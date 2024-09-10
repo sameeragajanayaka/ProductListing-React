@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #e2ebfa;
+  min-height: 100vh;
+
 }
 
 .App-logo {
@@ -26,6 +29,28 @@
 
 .App-link {
   color: #61dafb;
+}
+.sort-block{
+  display: flex;justify-content: flex-end;
+}
+.custom-input {
+  height: 2.5rem; /* Equivalent to `h-10` */
+  border: 1px solid #d1d5db; /* Equivalent to `border-gray-300` */
+  color: #111827; /* Equivalent to `text-gray-900` */
+  font-size: 0.75rem; /* Equivalent to `text-xs` */
+  font-weight: 500; /* Equivalent to `font-medium` */
+  border-radius: 9999px; /* Equivalent to `rounded-full` */
+  display: block;
+  width: 100%; 
+  max-width: 200px;
+  padding: 0.625rem 1rem; /* Equivalent to `py-2.5 px-4` */
+  appearance: none; /* Equivalent to `appearance-none` */
+  background-color: #ffffff; /* Equivalent to `bg-white` */
+  outline: none; /* Equivalent to `focus:outline-none` */
+}
+
+.custom-input:focus {
+  outline: none; /* Ensure outline is removed on focus */
 }
 
 @keyframes App-logo-spin {

@@ -1,0 +1,58 @@
+.bg-gray-100 {
+    background-color: #f7f7f7; /* Example light gray color */
+    border-radius: 50px;
+    border-color: #dcdddf;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 5px; */
+}
+.row-mod{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.custom-input {
+    height: 2.5rem; /* Equivalent to `h-10` */
+    border: 1px solid #d1d5db; /* Equivalent to `border-gray-300` */
+    color: #111827; /* Equivalent to `text-gray-900` */
+    font-size: 0.75rem; /* Equivalent to `text-xs` */
+    font-weight: 500; /* Equivalent to `font-medium` */
+    border-radius: 9999px; /* Equivalent to `rounded-full` */
+    display: block;
+    width: 60%; /* Equivalent to `w-full` */
+    padding: 0.625rem 1rem; /* Equivalent to `py-2.5 px-4` */
+    appearance: none; /* Equivalent to `appearance-none` */
+    background-color: #ffffff; /* Equivalent to `bg-white` */
+    outline: none; /* Equivalent to `focus:outline-none` */
+  }
+  
+  .custom-input:focus {
+    outline: none; /* Ensure outline is removed on focus */
+  }
+  .custom-button {
+    width: 100%; /* Equivalent to `w-full` */
+    padding: 0.625rem 1rem; /* Equivalent to `py-2.5` and `px-4` */
+    display: flex; /* Equivalent to `flex` */
+    align-items: center; /* Equivalent to `items-center` */
+    justify-content: center; /* Equivalent to `justify-center` */
+    gap: 0.5rem; /* Equivalent to `gap-2` */
+    border-radius: 9999px; /* Equivalent to `rounded-full` */
+    background-color: #4b5563; /* Equivalent to `bg-gray-600` */
+    color: #ffffff; /* Equivalent to `text-white` */
+    font-weight: 600; /* Equivalent to `font-semibold` */
+    font-size: 0.75rem; /* Equivalent to `text-xs` */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Equivalent to `shadow-sm` */
+    transition: all 0.5s; /* Equivalent to `transition-all duration-500` */
+  }
+  
+  .custom-button:hover {
+    background-color: #000000; /* Equivalent to `hover:bg-black` */
+    box-shadow: 0 4px 6px rgba(79, 70, 229, 0.2); /* Equivalent to `hover:shadow-indigo-200` */
+  }
